@@ -50,32 +50,32 @@ export const palette = {
 const theme = createTheme({
   typography: {
     h1: {
-      fontFamily: "'Oswald', sans-serif;",
+      fontFamily: "'Montserrat', sans-serif;",
       fontSize: "3rem",
       fontWeight: 700,
     },
     h2: {
-      fontFamily: "'Oswald', sans-serif;",
+      fontFamily: "'Montserrat', sans-serif;",
       fontSize: "2.5rem",
       fontWeight: 700,
     },
     h3: {
-      fontFamily: "'Oswald', sans-serif;",
+      fontFamily: "'Montserrat', sans-serif;",
       fontSize: "2rem",
       fontWeight: 700,
     },
     h4: {
-      fontFamily: "'Oswald', sans-serif;",
+      fontFamily: "'Montserrat', sans-serif;",
       fontSize: "1.5rem",
       fontWeight: 500,
     },
     h5: {
-      fontFamily: "'Oswald', sans-serif;",
+      fontFamily: "'Montserrat', sans-serif;",
       fontSize: "1.25rem",
       fontWeight: 500,
     },
     h6: {
-      fontFamily: "'Oswald', sans-serif;",
+      fontFamily: "'Montserrat', sans-serif;",
       fontSize: "1rem",
       fontWeight: 700,
     },
@@ -83,27 +83,7 @@ const theme = createTheme({
   palette,
   components: {
     MuiButton: {
-      // styleOverrides: {
-      //   outlined: {
-      //     border: "2px solid #ffb900",
-      //     color: "#ffb900",
-      //     borderRadius: "4px",
-      //     boxShadow:
-      //       "0px 3px 3px -2px rgba(0,0,0,0.2), 0px 3px 4px 0px rgba(0,0,0,0.14), 0px 1px 8px 0px rgba(0,0,0,0.12)",
-      //     ":hover": {
-      //       border: "2px solid #ffb900",
-      //     },
-      //   },
-      //   contained: {
-      //     background: "linear-gradient(45deg, #ffb900, #b37400)",
-      //     borderRadius: "4px",
-      //     boxShadow:
-      //       "0px 3px 3px -2px rgba(0,0,0,0.2), 0px 3px 4px 0px rgba(0,0,0,0.14), 0px 1px 8px 0px rgba(0,0,0,0.12)",
-      //   },
-      //   root: {
-      //     color: "#161616",
-      //   },
-      // },
+      
     },
     MuiFormControlLabel: {
       styleOverrides: {
