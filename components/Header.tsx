@@ -1,19 +1,10 @@
-import React from "react";
-import Link from "next/link";
-import { useRouter } from "next/router";
+import React from 'react';
+import Link from 'next/link';
 
 const Header: React.FC = () => {
-  const router = useRouter();
-  const isActive: (pathname: string) => boolean = (pathname) =>
-    router.pathname === pathname;
-
   let left = (
     <div className="left">
-      <Link href="/">
-        <a className="bold" data-active={isActive("/")}>
-          Feed
-        </a>
-      </Link>
+      <Link href="/" className="bold" />
       <style jsx>{`
         .bold {
           font-weight: bold;
@@ -25,7 +16,7 @@ const Header: React.FC = () => {
           display: inline-block;
         }
 
-        .left a[data-active="true"] {
+        .left a[data-active='true'] {
           color: gray;
         }
 
